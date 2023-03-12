@@ -42,7 +42,6 @@ body{
 @media (max-width:550px) {
     html{
         font-size: 10px;
-        opacity: 0.8;
     }
     .second-sec-img{
         max-width: 400px;
