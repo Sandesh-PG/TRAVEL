@@ -1,0 +1,203 @@
+:root{
+    --black: #000;
+    --white: #fff;
+    --lfont: 'Lilita One';
+    --hpfont: 'Montserrat Alternates';
+    --hsfont: 'Abril Fatface';
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* -----------Utility Classes--------- */
+.hr-1{
+    width: 70%;
+}
+
+.wd-1{
+    width: 30%;
+    margin: auto;
+}
+
+.font-size-less{
+    font-size: 2rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-self-center{
+    align-self: center;
+}
+
+/* -----------Media Query------------ */
+
+
+@media (max-width:550px) {
+    html{
+        font-size: 10px;
+        opacity: 0.8;
+    }
+    .second-sec-img{
+        max-width: 400px;
+        width: 50%;
+        height: auto;
+    }
+}
+
+
+/* -----------Header Section------------- */
+
+.h-primary{
+    font-family: var(--hpfont);
+    color: var(--white);
+    font-size: 3rem;
+}
+
+.h-secondary{
+    font-family: var(--hsfont);
+    color: var(--white);
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.logo-img{
+   display: inline-block;
+}
+
+.logo-text{
+   font-family: var(--lfont);
+}
+
+span{
+    position: relative;
+    left: 8%;
+}
+
+
+.btn-1{
+    color: var(--black);
+    border-color: var(--black);
+    border-radius: 10%;
+}
+
+.btn-1:hover{
+    background-color: yellow;
+    color: var(--black);
+}
+
+.form-control{
+    font-size: 1rem;
+}
+
+/* -----------Main Section-------------- */
+
+.main-container{
+    flex-direction: column;
+}
+
+.btn-2{
+    color: var(--white);
+    margin-top: 1%;
+    border:2px solid var(--white);
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+}
+
+.btn-2:hover{
+    background-color:rgb(255, 255, 255);
+    color: var(--black);
+}
+
+/* -----------Second Section------------ */
+.second-section{
+    background-color: #ECF2FF;
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-sec-img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+
+.text-section{
+    position: relative;
+    left: 8%;
+    overflow: hidden;
+    align-self: center;
+}
+
+.s-primary{
+    display: inline-block;
+    font-family: var(--hsfont);
+}
+
+.para-text{
+    font-family: var(--hpfont);
+    font-size: 1rem;
+    width: 65%;
+    line-height: 2;
+    opacity: 0.6;
+}
+
+.play-btn{
+    position: relative;
+    top: 3%;
+}
+
+.play-logo{
+    color: cyan;
+    cursor: pointer;
+}
+
+
+a{
+    position: relative;
+    top: 5%;
+    left: 3%;
+    color: var(--black);
+    text-decoration: none;
+    color: rgb(255, 30, 206);
+}
+
+a:hover{
+    color: var(--black);
+}
+
+
+/* ---------Scrolling animattion------- */
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* -----------ABOUT SECTION------------- */
+
+.about{
+    padding-top: 7%;
+    text-align: center;
+}
+
+
+
+
+/* -----------Footer Section------------ */
