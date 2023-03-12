@@ -49,6 +49,7 @@ body{
         width: 50%;
         height: auto;
     }
+   
 }
 
 
@@ -119,9 +120,6 @@ span{
 .second-section{
     background-color: #ECF2FF;
     padding-top: 7%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .second-sec-img{
@@ -144,7 +142,9 @@ span{
 
 .s-primary{
     display: inline-block;
+    width: 70%;
     font-family: var(--hsfont);
+    text-align: start;
 }
 
 .para-text{
