@@ -41,7 +41,7 @@ body{
 
 @media (max-width:550px) {
     html{
-        font-size: 10px;
+        font-size: 12px;
         opacity: 0.8;
     }
     .second-sec-img{
