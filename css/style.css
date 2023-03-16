@@ -32,12 +32,8 @@ body{
         font-size: 12px;
         opacity: 0.8;
     }
-
-    .h-primary{
-        font-size: 1.5rem;
-    }
     .para-text{
-        width: 700%;       
+        width: 70%;       
     }
 
     .second-sec-img{
@@ -54,13 +50,13 @@ body{
 .h-primary{
     font-family: var(--hpfont);
     color: var(--white);
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .h-secondary{
     font-family: var(--hsfont);
     color: var(--white);
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     line-height: 2;
 }
 
