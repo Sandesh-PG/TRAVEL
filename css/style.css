@@ -36,6 +36,9 @@ body{
     .h-primary{
         font-size: 2rem;
     }
+    .para-text{
+        width: 700%;       
+    }
 
     .second-sec-img{
         max-width: 400px;
@@ -108,7 +111,7 @@ span{
 /* -----------Second Section------------ */
 .second-section{
     background-color: #ECF2FF;
-    padding-top: 7%;
+    padding-top: 2%;
 }
 
 .second-sec-img{
@@ -119,6 +122,7 @@ span{
 
 .img-about-explain{
     width: 100%;
+    padding-top: 5%;
 }
 
 .s-primary{
@@ -130,8 +134,8 @@ span{
 
 .para-text{
     font-family: var(--hpfont);
-    font-size: 1rem;
-    width: 70%;
+    font-size: 1.4rem;
+    width: 100%;
     line-height: 2;
     opacity: 0.6;
     text-align: left;
