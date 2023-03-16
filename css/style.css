@@ -33,6 +33,10 @@ body{
         opacity: 0.8;
     }
 
+    .h-primary{
+        font-size: 2rem;
+    }
+
     .second-sec-img{
         max-width: 400px;
         width: 50%;
@@ -47,13 +51,13 @@ body{
 .h-primary{
     font-family: var(--hpfont);
     color: var(--white);
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .h-secondary{
     font-family: var(--hsfont);
     color: var(--white);
-    font-size: 1.4rem;
+    font-size: 1.9rem;
     line-height: 2;
 }
 
@@ -114,7 +118,7 @@ span{
 }
 
 .img-about-explain{
-    width: 80%;
+    width: 100%;
 }
 
 .s-primary{
@@ -183,6 +187,7 @@ a:hover{
 .about-container{
     width: 90%;
     margin: auto;
+    background-color: #F9F5EB;
 }
 
 h1{
@@ -194,9 +199,18 @@ h1{
 }
 
 .cols{
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 
+/* ------SLIDER SECTION---------- */
+.text-container{
+    margin-top: 3%;
+}
+
+.carousel-item img{
+    max-width: 70%;
+    margin: auto;
+}
 
 /* -----------Footer Section------------ */
