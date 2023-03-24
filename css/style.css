@@ -12,6 +12,16 @@ body{
     overflow-x: hidden;
 }
 
+h1::selection{
+    color: wheat;
+    background-color: none;
+}
+
+p::selection{
+    color: rgb(255, 0, 43);
+    background-color: none;
+}
+
 /* -----------Utility Classes--------- */
 .hr-1{
     width: 70%;
@@ -219,6 +229,30 @@ h1{
     width: 100px;
     background-size: 100%, 100%;
     border-radius: 50%;
+}
+
+/* ------BLOG POST SECTION----------- */
+.blog-post{
+    background-color: #19A7CE;
+    margin-top: 5%;
+}
+
+
+.card-title a{
+    left: 0;
+}
+
+.select::selection{
+    color: rgb(231, 200, 0);
+    background-color: none;
+}
+
+.row{
+    margin: 5% 0 0 0;
+}
+
+.col-lg-4{
+    padding: 2%;
 }
 
 /* -----------Footer Section------------ */
