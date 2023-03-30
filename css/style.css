@@ -33,7 +33,6 @@ p::selection{
     align-items: center;
 }
 
-
 /* -----------Media Query------------ */
 
 
@@ -53,7 +52,6 @@ p::selection{
     }
    
 }
-
 
 /* -----------Header Section------------- */
 
@@ -247,12 +245,12 @@ h1{
     background-color: none;
 }
 
-.row{
-    margin: 5% 0 0 0;
+.testimonial-img{
+    border-radius: 50% !important;
+    width: 70px;
+    display: block;
 }
 
-.col-lg-4{
-    padding: 2%;
-}
+
 
 /* -----------Footer Section------------ */
