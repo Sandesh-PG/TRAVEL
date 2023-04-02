@@ -282,6 +282,7 @@ h1{
     margin-bottom: 3%;
 }
 
+
 .test-para{
     font-family: var(--hpfont);
     font-size: 1rem;
@@ -303,8 +304,6 @@ h1{
       opacity: 1;
     }
   }
-
-
 
 /* -----------Footer Section------------ */
 
@@ -329,7 +328,10 @@ h1{
     color: #ffffffb3;
     font-family: var(--hsfont);
     padding: 6%;
+}
 
+.footer-links a{
+    color: #fff;
 }
 
 em{
