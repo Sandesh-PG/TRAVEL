@@ -13,7 +13,7 @@ body{
 }
 
 h1::selection{
-    color: wheat;
+    color: rgb(0, 195, 255);
     background-color: none;
 }
 
@@ -64,9 +64,15 @@ p::selection{
 .h-secondary{
     font-family: var(--hsfont);
     color: var(--white);
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 2;
 }
+
+.h-5{
+    font-family: var(--hpfont);
+    font-size: 1.1rem;
+}
+
 
 .logo-text{
    font-family: var(--lfont);
@@ -206,7 +212,7 @@ h1{
     padding: 3%;
 }
 
-.cols{
+.col{
   margin-bottom: 3%;
 }
 
@@ -245,12 +251,108 @@ h1{
     background-color: none;
 }
 
+/* -------Testimonial Section------ */
+.container1{
+    margin-bottom: 15%;
+}
+
+.testimonial{
+    background-color: #EDE9D5;
+}
+
 .testimonial-img{
     border-radius: 50% !important;
     width: 70px;
     display: block;
 }
 
+.test-img{
+    margin-bottom: 3%;
+}
+
+.test-para{
+    font-family: var(--hpfont);
+    font-size: 1rem;
+    line-height: 2;
+    opacity: 0.8;
+}
+
 
 
 /* -----------Footer Section------------ */
+
+.footer-container{
+    background-color: #1a1a1a;
+    
+}
+
+.footer-row{
+   width: 85%;
+   margin: auto;
+   padding: 6%;
+}
+
+.footer-head{
+    color: white;
+    font-family: var(--hsfont);
+    
+}
+
+.footer-links{
+    color: #ffffffb3;
+    font-family: var(--hsfont);
+    padding: 6%;
+
+}
+
+em{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-email{
+    padding: 7px 0px;
+    width: 200px;
+    border-radius: 7px;
+    background: 0px 0px;
+    border: none;
+    outline: none;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="email"]{
+    color: white;
+}
+
+hr{
+    color: white;
+}
+
+.copright-text{
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.contact-logo{
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.contact-logo:hover{
+    color: rgb(219, 175, 175);
+}
+
+.small-cards p{
+    color: rgb(180, 191, 191);
+}
+
+.telegram-img{
+    cursor: pointer;
+    
+}
