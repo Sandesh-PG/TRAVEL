@@ -118,6 +118,18 @@ span{
     color: var(--black);
 }
 
+.down-arraw{
+position: relative;
+top: 20%;
+cursor: pointer;
+filter: invert(100%);
+}
+
+.down-arraw a{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* -----------Second Section------------ */
 .second-section{
     background-color: #ECF2FF;
@@ -277,6 +289,21 @@ h1{
     opacity: 0.8;
 }
 
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+
+@keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
 
 
 /* -----------Footer Section------------ */
@@ -354,5 +381,5 @@ hr{
 
 .telegram-img{
     cursor: pointer;
-    
+    filter: invert(100%);
 }
